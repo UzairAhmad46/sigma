@@ -1,0 +1,28 @@
+:root {
+  --navBackground: black;
+  --color: white;
+  --anotherB: orange;
+  --colorC: red;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: var(--anotherB);
+  color: var(--colorC);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 10px;
+}
+
+nav ul li {
+  list-style: none;
+}
